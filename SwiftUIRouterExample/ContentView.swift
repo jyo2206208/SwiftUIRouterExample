@@ -8,6 +8,7 @@
 import SwiftUI
 import MyService
 import SwiftUIRouter
+import HomeModule
 
 struct ContentView: View {
 

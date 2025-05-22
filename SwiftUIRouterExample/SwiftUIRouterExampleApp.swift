@@ -63,7 +63,7 @@ extension RootTabs {
     }
 }
 
-extension RootTabs: @retroactive View {
+extension RootTabs: View {
 
     public var body: some View {
         switch self {
