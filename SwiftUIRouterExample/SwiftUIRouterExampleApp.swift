@@ -18,11 +18,8 @@ import SwiftUIRouter
 struct ExampleApp: App {
 
     init() {
-        Router.register(handlers: [
-            HotelListView.self,
-            HotelDetailView.self,
-            RouterTestView.self
-        ])
+        _ = BookModule()
+        _ = HotelModule()
     }
 
     var body: some Scene {
